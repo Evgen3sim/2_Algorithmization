@@ -1,3 +1,4 @@
+package by.epam.onedimensionalarrays.task3;
 
 /*
 *

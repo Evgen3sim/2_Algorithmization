@@ -1,3 +1,5 @@
+package by.epam.onedimensionalarrays.task2;
+
 import java.util.Scanner;
 
 /*Дана последовательность действительных чисел а 1 ,а 2 ,..., а п . Заменить все ее члены, большие данного Z, этим
@@ -29,7 +31,7 @@ public class Main {
 
         System.out.println("The resulting array");
         for (int i = 0; i < array.length; i++){
-            if (z > array[i]){
+            if (z < array[i]){
                array[i] = z;
                count++;
 
