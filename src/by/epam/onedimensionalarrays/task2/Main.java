@@ -1,8 +1,8 @@
+import java.util.Scanner;
 
 /*Дана последовательность действительных чисел а 1 ,а 2 ,..., а п . Заменить все ее члены, большие данного Z, этим
 числом. Подсчитать количество замен.*/
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

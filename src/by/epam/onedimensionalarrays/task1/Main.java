@@ -1,11 +1,10 @@
+import java.util.Scanner;
 
 /*В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К*/
 
-import java.util.Scanner;
-
 public class Main {
-    public static void main(String[] args) {
 
+	public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter K");
         int k = scn.nextInt();
@@ -18,7 +17,6 @@ public class Main {
                 if (array[i] % k == 0){
                     sum = sum + array[i];
                 }
-
             }
         System.out.println("Summa " + sum);
     }
