@@ -6,17 +6,14 @@ import java.util.Scanner;
 являются простыми числами.*/
 
 public class Main {
-	
     static int var = 2;
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input the size of array = ");
-    
         int size = scanner.nextInt();
         int [] array = new int[size];
         int sum = 0;
-        
         System.out.println("Input the elements of array: ");
         for (int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();

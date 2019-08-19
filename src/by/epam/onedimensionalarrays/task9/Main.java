@@ -1,10 +1,10 @@
+package by.epam.onedimensionalarrays.task9;
+
+import java.util.Scanner;
+import static java.lang.Integer.min;
 
 /*В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число. Если таких
 чисел несколько, то определить наименьшее из них.*/
-
-import java.util.Scanner;
-
-import static java.lang.Integer.min;
 
 public class Main {
     public static void main(String[] args) {

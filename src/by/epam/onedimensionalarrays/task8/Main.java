@@ -1,8 +1,9 @@
+package by.epam.onedimensionalarrays.task8;
+
+import java.util.Scanner;
 
 /*Дана последовательность целых чисел a 1 , a 2 ,  , a n . Образовать новую последовательность, выбросив из
 исходной те члены, которые равны min( a 1 , a 2 ,  , a n ) .*/
-
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
